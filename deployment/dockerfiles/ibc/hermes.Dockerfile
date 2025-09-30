@@ -1,7 +1,7 @@
 # Build with:
 # docker build -f hermes.Dockerfile . -t hermes:latest
 # FROM golang:latest
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 # add hermes user
 RUN ["useradd", "-ms", "/bin/bash", "hermes-user"]
